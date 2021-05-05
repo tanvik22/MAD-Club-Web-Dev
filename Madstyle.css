@@ -1,0 +1,497 @@
+/* arial
+calibri 
+verdana
+Calibri Light*/
+    .box{
+    position: relative;
+    background-color: #292F33;
+    text-align:left;
+    color:white;
+    width:100%;
+    height:33em;
+    border: 2px solid black;
+    }
+
+  .box_in_box h1 {
+    font-family: verdana;
+    font-size: 370%;
+    margin-left: 11%;
+    width:30%;
+    }
+
+    .box_in_box p {
+    color:rgb(148, 138, 138);
+    font-size:140%;
+    width:30%;
+    margin-left: 11%;
+    }
+    
+   .box_in_box {
+    position: absolute;
+    margin-top: 8%;
+  }
+
+  .navbar1 i {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    margin-left:12%; 
+    padding-left:150px;
+    padding-right: 40px;
+    font-size:30px;
+  }
+
+  .search input {
+    background-color:#4b4f53;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    border-color: #4b4f53;
+  }
+
+  .s{
+    margin-left: 22%;
+  }
+
+  .whitebox{
+    position: absolute;
+    width:23%;
+    height:26em;
+    margin-top:4%;
+    margin-left: 59%;
+    background-color: white;
+  }
+
+  .whitebox p{
+    color:black;
+    font-size:80%;
+    width:93%;
+    margin-right: 3%;
+    text-align: center;
+    margin-top:2%;   
+    margin-left:3%; 
+  }
+
+  .password{
+    color:black;
+    font-size:87%;
+    width:93%;
+    margin-top:2%;   
+    text-align: center;
+    margin-left: 1%;
+  }
+
+  .whitebox input{
+    width: 85%;
+    margin-left:5%;
+    display: inline-block;
+    border: 1px solid rgb(22, 22, 22);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  
+  .whitebox label {
+    color: rgb(24, 22, 22);
+    text-transform: uppercase;
+    font-family:  Arial, Helvetica;
+    font-size: 14px;
+    margin-left:5%;
+    margin-top:6%;
+  }
+
+  #bt{
+    background-color: #10bd38;
+    color:#ffff;
+    margin-left:8%;
+    text-align:centre;
+    font-size: 110%;
+    height:8%;
+    margin-top:3%;
+    width:80%;
+    border-radius: 4px;
+    border: 1px solid #10bd38;
+  }
+  
+  .footer{
+    background-color: #fff;
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 3%;;
+    width: 100%;
+    /* height:33%; */
+    /* margin-left:10%; */
+    text-align: center !important;
+  }
+
+  .footer h1{
+    font-family: verdana;
+  }
+
+  .footer p{
+  /* text-align:center; */
+  font-size:18px;
+  }
+
+  .footer button{
+    background-color: #ffff;
+    color:rgb(13, 89, 253);
+    font-size:90%;
+    font-weight: bold;
+    border: 1px solid #000000;
+  }
+
+  .hide{
+    display:none;
+  }
+
+  @media screen and (max-width: 1025px){
+    .navbar1 i {
+      /* padding:6px; */
+      color: white;
+      text-decoration: none;
+      font-size: 100%;
+      margin-left:12%; 
+      padding-left:60px;
+      padding-right: 20px;
+      font-size:30px;
+    }
+  
+    .s{
+      margin-left: 10%;
+    }
+
+    .whitebox{
+      position: absolute;
+      width:30%;
+      height:25em;
+      margin-top:4%;
+      margin-left: 59%;
+      background-color: white;
+    } 
+  
+    .whitebox p{
+      color:black;
+      font-size:80%;
+      width:95%;
+      margin-right: 0%;
+      text-align: center;
+      margin-top:2%;   
+      margin-left:0%; 
+    }
+  
+    .box_in_box h1 {
+      font-family: verdana;
+      font-size: 370%;
+      margin-left: 9%;
+      width:45%;
+      }
+  
+    .box_in_box p {
+      color:rgb(148, 138, 138);
+      font-size:140%;
+      width:45%;
+      margin-left: 9%;
+      }
+  
+    #bt{
+      background-color: #10bd38;
+      color:#ffff;
+      margin-left:9%;
+      text-align:centre;
+      font-size: 110%;
+      height:8%;
+      margin-top:3%;
+      width:80%;
+      border-radius: 4px;
+      border: 1px solid #10bd38;
+    }
+  
+    .footer p{
+      /* text-align:center; */
+      font-size:18px;
+      width: 80%;
+      text-align: center;
+      margin-left: 10%;
+      }
+  
+    }  
+
+@media screen and (max-width: 768px){
+  .box{
+    /* position: relative; */
+    background-color: #292F33;
+    text-align:center;
+    color:white;
+    width:100%;
+    height:45em;
+    border: 2px solid black;
+    padding-bottom:18%;
+  }
+      
+  .box_in_box h1 {
+    font-family: verdana;
+    font-size: 50px;
+    width:80%;
+    }
+
+  .box_in_box p {
+    color:rgb(148, 138, 138);
+    font-size:20px;
+    width:90%;
+    /* margin-right: 1%; */
+    margin-left: 4%;
+    text-align: center;
+    }
+    
+  .box_in_box {
+    /* position: absolute; */
+    display:block;
+    width:100%;
+    height:30em;
+    margin-top: 8%;
+  }
+  
+  
+  .whitebox{
+    display:block;
+    width:45%;
+    height:26em;
+    margin-top:35%;
+    margin-left:27%;
+    background-color: white;
+    text-align: left;
+    box-align:center;
+  }
+
+  .whitebox p{
+    color:black;
+    font-size:80%;
+    width:93%;
+    margin-left: 3%;
+    text-align: center;
+    margin-top:2%;   
+  } 
+  
+  .password{
+    color:black;
+    font-size:90%;
+    width:93%;
+    margin-right: 3%;
+    margin-top:2%;   
+    margin-left:3%; 
+  }
+
+  .whitebox input{
+    width: 80%;
+    margin-left:6%;
+    display: inline-block;
+    border: 1px solid rgb(22, 22, 22);
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+  }
+
+  .whitebox label {
+    color: rgb(24, 22, 22);
+    text-transform: uppercase;
+    font-family:  Arial, Helvetica;
+    font-size: 90%;
+    margin-left:6%;
+    margin-top:6%;
+  }
+
+  #bt{
+    background-color: #10bd38;
+    color:#ffff;
+    margin-left:8%;
+    text-align:centre;
+    font-size: 110%;
+    height:8%;
+    margin-top:3%;
+    width:80%;
+    border-radius: 4px;
+    border: 1px solid #10bd38;
+  }
+
+  .navbar1 i {
+    /* padding:px; */
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    margin-left:1%;
+    padding-left:15px;
+    font-size:30px;
+  }
+      
+  .footer{
+    display:block;
+    background-color: #fff;
+    color: black;
+    margin-top: 5%;
+    width: 100%;
+    height:35%;
+    text-align: center;
+    padding-bottom:4%;
+  }
+
+  .footer h1{
+    font-family: verdana;
+  }
+  .footer p{
+    width: 75%;
+    font-size:16px;
+    text-align: center;
+    margin-left: 12%;
+  }
+
+  .footer button{
+    background-color: #ffff;
+    color:rgb(13, 89, 253);
+    font-size:90%;
+    font-weight: bold;
+    border: 1px solid #000000;
+  } 
+  .hide{
+    display:none;
+  }
+}
+@media screen and (max-width: 426px){
+
+  .box{
+    background-color: #292F33;
+    text-align:center;
+    color:white;
+    width:100%;
+    height:27em;
+    border: 2px solid black;
+    /* padding-bottom:18%; */
+  }
+      
+  .box_in_box h1 {
+    font-family: verdana;
+    font-size: 40px;
+    width:67%;
+    text-align:center;
+    margin-left: 13%;
+    }
+
+  .box_in_box p {
+    color:rgb(148, 138, 138);
+    font-size:20px;
+    width:77%;
+    text-align:center;
+    margin-left: 8%;
+  }
+    
+  .box_in_box {
+    display:block;
+    width:100%;
+    /* height:50%; */
+    /* margin-top: 8%; */
+  }
+
+  .whitebox label {
+    display:none;
+    clear:both;
+  }
+  .whitebox p {
+    display:none;
+    clear:both;
+  }
+  .whitebox input {
+    display:none;
+    clear:both;
+  }
+
+  .whitebox .password {
+    display:none;
+    clear:both;
+  }
+  .whitebox{
+    display:block;
+    margin-top:67%;
+    margin-left:23%;
+    padding:0;
+    width:50%;
+    height:20%;
+    background: transparent;
+
+  }
+  .whitebox #bt{
+    margin-top:0;
+    padding:0;
+    height:30px;
+    font-size:15px;
+  }
+  
+  /* #bt{
+    background-color: #10bd38;
+    color:#ffff;
+    margin-left:8%;
+    text-align:centre;
+    font-size: 110%;
+    height:8%;
+    margin-top:3%;
+    width:80%;
+    border-radius: 4px;
+    border: 1px solid #10bd38;
+  } */
+
+      
+  .footer{
+    display:block;
+    background-color: #fff;
+    color: black;
+    margin-top: 3%;
+    width: 100%;
+    height:27%;
+    text-align: center;
+    padding-bottom:4%;
+  }
+
+  .footer h1{
+    font-family: verdana;
+  }
+  .footer p{
+    text-align:center;
+    margin-left:14%;
+    width: 73%;
+    font-size:16px;
+  }
+
+  .footer button{
+    background-color: #ffff;
+    color:rgb(13, 89, 253);
+    font-size:90%;
+    font-weight: bold;
+    border: 1px solid #000000;
+  }   
+
+}
+
+@media screen and (max-width: 376px){
+  
+  .whitebox{
+    display:block;
+    margin-top:82%;
+    margin-left:23%;
+    padding:0;
+    width:50%;
+    height:20%;
+    background: transparent;
+
+  }
+}
+
+@media screen and (max-width: 321px){
+  
+  .whitebox{
+    display:block;
+    margin-top:95%;
+    margin-left:23%;
+    padding:0;
+    width:50%;
+    height:20%;
+    background: transparent;
+
+  }
+}
